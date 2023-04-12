@@ -12,7 +12,14 @@ createApp({
   data(){
 
     return{
-      message: 'Buongiorno Boolean'
+      message: 'Buongiorno',
+
+      image: 'immagine',
+
+      html: `
+      <img src="cane.jpg">
+      `
     }
-  }
+  },
+
 }).mount('#app')
